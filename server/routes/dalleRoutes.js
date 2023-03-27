@@ -6,7 +6,7 @@ import { Configuration, OpenAIApi} from 'openai';
 const router = express.Router();
 dotenv.config().parsed;
 
-const OPENAI_API_KEY = "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";
+const OPENAI_API_KEY = "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";
 const configuration = new Configuration({
     apiKey: OPENAI_API_KEY,
 });
