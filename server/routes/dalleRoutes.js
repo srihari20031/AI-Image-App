@@ -6,9 +6,9 @@ import { Configuration, OpenAIApi} from 'openai';
 const router = express.Router();
 dotenv.config().parsed;
 
-const OPENAI_API_KEY = "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";
+// const OPENAI_API_KEY = "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";
 const configuration = new Configuration({
-    apiKey: process.env.OPENAI_API_KEY,
+    const apiKey =  "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";
 });
 
 const openai = new OpenAIApi(configuration);
